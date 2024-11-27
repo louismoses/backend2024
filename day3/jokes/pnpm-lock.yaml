@@ -11,9 +11,6 @@ importers:
       colors:
         specifier: ^1.4.0
         version: 1.4.0
-      give:
-        specifier: ^2.0.0
-        version: 2.0.0
       give-me-a-joke:
         specifier: ^0.5.1
         version: 0.5.1
@@ -104,10 +101,6 @@ packages:
 
   give-me-a-joke@0.5.1:
     resolution: {integrity: sha512-ZhqX8qXKUG9XY+8LznswHXatVgRdZ2vNYNCm+pNCCFt6x/4je6k50UstwZDFluEX0WUHkHUEg23T37AEffCJdQ==}
-
-  give@2.0.0:
-    resolution: {integrity: sha512-GYXPM5csFpVR5EX1ulZGLQh3V7eDReS1aoCOkua0OouvpTMrvoxgVvJt6YiKIFdMXeY3oy9+/uah9ryINqK2pg==}
-    hasBin: true
 
   har-schema@2.0.0:
     resolution: {integrity: sha512-Oqluz6zhGX8cyRaTQlFMPw80bSJVG2x/cFb8ZPhUILGgHka9SsokCCOQgpveePerqidZOrT14ipqfJb7ILcW5Q==}
@@ -287,8 +280,6 @@ snapshots:
       request: 2.88.2
     transitivePeerDependencies:
       - debug
-
-  give@2.0.0: {}
 
   har-schema@2.0.0: {}
 
