@@ -7,5 +7,5 @@
 ## Package Manager
 
 -   [NPM](https://www.npmjs.com)
-    npm command
-    npm i or npm install
+    -   npm command
+    -   npm i or npm install
