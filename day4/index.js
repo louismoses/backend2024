@@ -27,9 +27,9 @@ app.post("/dogs", (req, res) => {
     res.send("grrrrrr");
 });
 
-app.get("/r/:sub", (req, res) => {
-    const { sub } = req.params;
-    res.send(`this is subpage name is ${sub}`);
+app.get("/r/:sub/:postId", (req, res) => {
+    const { sub, postId } = req.params;
+    res.send(`this page name is ${sub} and post id is ${postId}`);
 });
 
 app.get("*", (req, res) => {
