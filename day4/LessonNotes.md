@@ -7,3 +7,5 @@
 -   res.send
 -   [Postman](https://www.postman.com/)
 -   routes
+    -- direct match
+    -- patterned route [req.params]

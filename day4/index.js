@@ -27,6 +27,11 @@ app.post("/dogs", (req, res) => {
     res.send("grrrrrr");
 });
 
+app.get("/r/:sub", (req, res) => {
+    const { sub } = req.params;
+    res.send(`this is subpage name is ${sub}`);
+});
+
 app.get("*", (req, res) => {
     res.send("404 | Page not found");
 });
