@@ -13,3 +13,11 @@ Blueprint of a web page.
 ### Views folder
 
 default directory for express/ejs of render pages
+
+## Tags
+
+-   <%= html escaped
+
+## Passing Data
+
+-
