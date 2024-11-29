@@ -14,6 +14,16 @@ app.get("/", (req, res) => {
     res.render("home");
 });
 
+app.get("/r/:subreddit", (req, res) => {
+    const { subreddit } = req.params;
+    res.render("subreddit", { title: subreddit });
+});
+
+app.get("/ran", (req, res) => {
+    const randomNum = Math.floor(Math.random() * 10 + 1);
+    res.render("random", { randomNum });
+});
+
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 });
