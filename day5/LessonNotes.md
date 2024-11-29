@@ -17,6 +17,7 @@ default directory for express/ejs of render pages
 ## Tags
 
 -   <%= html escaped
+-   <% scriplet tag for control-flow, no output
 
 ## Passing Data
 
