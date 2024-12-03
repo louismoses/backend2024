@@ -1,0 +1,4 @@
+# Rest/Restful API
+
+-   stateless
+-
